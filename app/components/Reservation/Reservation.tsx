@@ -21,7 +21,7 @@ const Reservation = () => {
                     <div className='flex mt-[2rem] items-center space-x-4'>
                         <div className='w-[3rem] h-[3rem] bg-red-500 rounded-full flex items-center justify-center
                             flex-col'>
-                            <BiPhone clasName="w-[1.7rem] h-[1.7rem] text-white" />
+                            <BiPhone className="w-[1.7rem] h-[1.7rem] text-white" />
                         </div>
                         <div>
                             <h1 className='text-[25px] text-white font-semibold'>Quick order 24/7</h1>

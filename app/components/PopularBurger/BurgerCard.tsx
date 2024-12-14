@@ -21,11 +21,11 @@ const BurgerCard = ({ image, price, reviews, title, }: Props) => {
             <h1 className='mt-[1.3rem text-[22px] text-black font-semibold'>{title}</h1>
             <div className='flex items-center mt-[0.5rem] space-x-3'>
                 <div className='flex items-center'>
-                    <FaStar clasName="w-[1rem] h-[1rem] text-yellow-600" />
-                    <FaStar clasName="w-[1rem] h-[1rem] text-yellow-600" />
-                    <FaStar clasName="w-[1rem] h-[1rem] text-yellow-600" />
-                    <FaStar clasName="w-[1rem] h-[1rem] text-yellow-600" />
-                    <FaStar clasName="w-[1rem] h-[1rem] text-yellow-600" />
+                    <FaStar className="w-[1rem] h-[1rem] text-yellow-600" />
+                    <FaStar className="w-[1rem] h-[1rem] text-yellow-600" />
+                    <FaStar className="w-[1rem] h-[1rem] text-yellow-600" />
+                    <FaStar className="w-[1rem] h-[1rem] text-yellow-600" />
+                    <FaStar className="w-[1rem] h-[1rem] text-yellow-600" />
                 </div>
                 <div className='text-black opacity-60'>{reviews}</div>
             </div>

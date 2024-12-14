@@ -4,7 +4,7 @@ import { GrRestaurant } from 'react-icons/gr'
 const ReservationForm = () => {
     return (
         <div className='bg-green-700 p-6 rounded-lg'>
-            <GrRestaurant clasName="w-[5rem] h-[5rem] text-white mt-[2rem] mx-auto" />
+            <GrRestaurant className="w-[5rem] h-[5rem] text-white mt-[2rem] mx-auto" />
             <h1 className='text-center font-bold uppercase text-[30px] md:text-[40px] lg:text-[50px] mt-[0.5rem] text-white'>Reservation</h1>
             <p className='uppercase text-[20px] md:text-[25px] text-white font-semibold text-center'>Book Your table</p>
             {/* inputs */}
