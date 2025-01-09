@@ -6,12 +6,12 @@ import BurgerCard from './BurgerCard';
 
 const responsive = {
   desktop: {
-    breakpoint: { max: 3000, min: 1324 },
+    breakpoint: { max: 3000, min: 1024 },
     items: 4,
     slidesToSlide: 1 // optional, default to 1.
   },
   tablet: {
-    breakpoint: { max: 1024, min: 464 },
+    breakpoint: { max: 1024, min: 764 },
     items: 2,
     slidesToSlide: 1 // optional, default to 1.
   },
@@ -33,7 +33,18 @@ const PopularBurger = () => {
       </h1>
       <div className='w-[80%] mt-[4rem] mx-auto '>
 
-        <Carousel responsive={responsive}>
+        <Carousel
+          additionalTransfrom={0}
+          arrows={true}
+          autoPlay={true}
+          autoPlaySpeed={4000}
+          centerMode={false}
+          infinite
+          itemClass='item'
+          showDots={false}
+          
+          responsive={responsive}
+          >
           <BurgerCard
             title='Beefy Bite'
             image='/images/b1.png'
